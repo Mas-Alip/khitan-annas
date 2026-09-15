@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Digital - Tasyakuran Khitan</title>
+    <meta name="description" content="Undangan Tasyakuran Khitan Annas Maulud Trivano">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <audio id="background-music" loop preload="none" aria-label="Musik latar undangan"></audio>
+    <button id="music-toggle" class="music-toggle" type="button" aria-label="Nyalakan musik" aria-pressed="false">♫ <span>Music OFF</span></button>
+    <header class="site-header">
+        <a class="brand" href="#cover" aria-label="Kembali ke halaman utama">✦ Annas</a>
+        <nav aria-label="Navigasi utama"><a href="#opening">Undangan</a><a href="#event">Acara</a><a href="#location">Lokasi</a></nav>
+    </header>
+    <main>
+        <section id="cover" class="hero section">
+            <span class="decor balloon balloon-one" aria-hidden="true"></span><span class="decor balloon balloon-two" aria-hidden="true"></span>
+            <span class="decor star star-one" aria-hidden="true">✦</span><span class="decor star star-two" aria-hidden="true">✧</span>
+            <span class="cloud cloud-one" aria-hidden="true"></span><span class="cloud cloud-two" aria-hidden="true"></span>
+            <div class="hero-content"><p class="eyebrow">Dengan penuh syukur</p><h1><span>Tasyakuran</span> Khitan</h1><p class="hero-intro">Untuk putra tercinta kami</p>
+                <p id="cover-child-name" class="child-name">Annas Maulud Trivano</p>
+                <div class="hero-photo"><img id="cover-child-photo" src="./assets/images/contoh_foto.jpeg" alt="Foto Annas Maulud Trivano"></div>
+                <button class="button button-primary" id="open-invitation" type="button">Buka Undangan</button>
+            </div>
+        </section>
+        <section id="opening" class="section section-light" aria-labelledby="opening-title">
+            <div class="card opening-card"><span class="ornament" aria-hidden="true">☾ ✦ ☽</span><p class="arabic">Bismillahirrahmanirrahim</p>
+                <h2 id="opening-title">Assalamu’alaikum Warahmatullahi Wabarakatuh</h2><p>Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang teman-teman untuk menghadiri Tasyakuran Khitan.</p>
+            </div>
+        </section>
+        <section id="profile" class="section" aria-labelledby="profile-title"><div class="section-heading"><p class="eyebrow">Putra tercinta</p><h2 id="profile-title">Profil Anak</h2></div>
+            <div class="profile-card card"><div class="photo-frame"><img id="child-photo" src="./assets/images/contoh_foto.jpeg" alt="Foto Annas Maulud Trivano"></div><h3 id="child-name">Annas Maulud Trivano</h3><span class="gold-divider" aria-hidden="true">✦</span></div>
+        </section>
+        <section id="countdown" class="section countdown-section" aria-labelledby="countdown-title"><div class="section-heading"><p class="eyebrow">Catat tanggalnya</p><h2 id="countdown-title">Menuju Hari Bahagia</h2></div>
+            <div id="countdown-timer" class="countdown-grid" aria-live="polite"><div class="countdown-item"><strong>00</strong><span>Hari</span></div><div class="countdown-item"><strong>00</strong><span>Jam</span></div><div class="countdown-item"><strong>00</strong><span>Menit</span></div><div class="countdown-item"><strong>00</strong><span>Detik</span></div></div>
+        </section>
+        <section id="event" class="section section-light" aria-labelledby="event-title"><div class="section-heading"><p class="eyebrow">Waktu pelaksanaan</p><h2 id="event-title">Detail Acara</h2></div>
+            <div class="info-grid"><article class="info-card card"><span class="info-icon" aria-hidden="true">▣</span><h3>Tanggal</h3><p><span id="event-start-date">30 September 2026</span></p></article><article class="info-card card"><span class="info-icon" aria-hidden="true">◷</span><h3>Waktu</h3><p id="event-time">09.00 WIB</p></article></div>
+        </section>
+        <section id="location" class="section" aria-labelledby="location-title"><div class="card location-card"><span class="location-pin" aria-hidden="true">●</span><div><p class="eyebrow">Tempat acara</p><h2 id="location-title">Desa Pegongsoran</h2><p id="location-address">RT 10 RW 02<br>Kec. Pemalang</p><p class="map-note">Lihat rute dan lokasi acara melalui Google Maps.</p></div><a id="maps-link" class="button button-secondary" href="#" target="_blank" rel="noopener noreferrer">Lihat Lokasi</a></div>
+        </section>
+        <section id="rsvp" class="section section-light" aria-labelledby="rsvp-title"><div class="card rsvp-card"><span class="ornament" aria-hidden="true">✦</span><h2 id="rsvp-title">Konfirmasi Kehadiran</h2><p>Konfirmasi kehadiran langsung melalui website.</p><form id="rsvp-form" novalidate><label for="guest-name">Nama</label><input id="guest-name" name="name" type="text" autocomplete="name" required><fieldset><legend>Konfirmasi kehadiran</legend><label><input type="radio" name="attending" value="Hadir" required> Hadir</label><label><input type="radio" name="attending" value="Tidak hadir"> Tidak hadir</label><label><input type="radio" name="attending" value="Masih ragu"> Masih ragu</label></fieldset><label for="guest-message">Ucapan <span class="optional-label">(opsional)</span></label><textarea id="guest-message" name="message" maxlength="240" rows="3" placeholder="Tuliskan doa dan ucapan untuk Annas..."></textarea><button id="rsvp-button" class="button button-primary" type="submit">Kirim Konfirmasi</button><p id="rsvp-feedback" class="form-feedback" role="status" aria-live="polite"></p></form><div class="rsvp-list-wrap"><div class="rsvp-list-heading"><h3>Daftar Kehadiran</h3><span id="rsvp-count">Memuat...</span></div><ul id="rsvp-list" class="rsvp-list" aria-live="polite"><li class="rsvp-empty">Memuat daftar konfirmasi...</li></ul></div></div>
+        </section>
+        <section id="family" class="section family-section" aria-labelledby="family-title"><p class="eyebrow">Hormat kami</p><h2 id="family-title">Lastri</h2><p>(Es Kelapa)</p><span class="gold-divider" aria-hidden="true">✦ ─ ✦</span>
+        </section>
+        <section id="contact" class="section section-light" aria-labelledby="contact-title"><div class="card contact-card"><p class="eyebrow">Butuh informasi?</p><h2 id="contact-title">Ada yang ingin ditanyakan?</h2><p>Silakan hubungi keluarga kami melalui WhatsApp.</p><button id="contact-whatsapp" class="button button-secondary" type="button"><span aria-hidden="true">◉</span> Hubungi Kami</button><p id="contact-feedback" class="form-feedback" role="status" aria-live="polite"></p></div>
+        </section>
+    </main>
+    <footer class="site-footer"><p>Terima kasih atas kehadiran dan doa restunya.</p></footer>
+    <script src="./data/config.js" defer></script><script src="./js/main.js" defer></script><script src="./js/countdown.js" defer></script><script type="module" src="./js/rsvp.js"></script>
+</body>
+</html>
