@@ -15,7 +15,7 @@ const invitationConfig = {
     address: "RT 10/RW 02, Kecamatan Pemalang",
     mapsUrl: "https://maps.app.goo.gl/eckUeYVhjJ9XzVAx8",
   },
-  family: { name: "Sulastri", description: "Es Kelapa" },
+  family: { name: "Sulastri & Sukanto", description: "Es Kelapa" },
   contact: {
     whatsapp: {
       number: "62881037280094",
