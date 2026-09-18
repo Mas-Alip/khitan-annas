@@ -7,7 +7,7 @@ const invitationConfig = {
     title: "Tasyakuran Khitan",
     startDate: "2026-09-30T09:00:00+07:00",
     endDate: "2026-09-30T12:00:00+07:00",
-    time: "09.00 WIB",
+    time: "06.00 WIB",
     timezone: "Asia/Jakarta",
   },
   location: {
